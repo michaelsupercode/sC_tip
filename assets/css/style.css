@@ -12,7 +12,10 @@ body input[type="submit"] {
 
 #service,
 #out {
-    width: 90%;
+    width: 89%;
+    color: gray;
+    font-size:small;
+    margin-left: .2em;
 }
 
 body .flex {
@@ -27,7 +30,6 @@ body .flex {
 
 body form {
     background: rgb(151, 150, 150);
-    /* border: 1px solid gold; */
     border-radius: 1em;
     padding: 2em;
 }
@@ -52,9 +54,8 @@ body form select {
 
 body form input[type="submit"] {
     margin: auto;
-    background-color: gold;
+    background-color: rgb(250, 209, 114);
     border-radius: 1rem;
-
 }
 
 body form p {
