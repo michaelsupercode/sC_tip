@@ -2,7 +2,7 @@ body {
     height: 100vh;
     background-color: white;
     font-family: sans-serif;
-    color: rgb(206, 202, 14);
+    color: rgb(250, 250, 248);
 }
 
 body select,
@@ -26,15 +26,15 @@ body .flex {
 }
 
 body form {
-    background: black;
-    border: 1px solid gold;
-    border-radius: 1rem;
-    padding: 2rem;
+    background: rgb(151, 150, 150);
+    /* border: 1px solid gold; */
+    border-radius: 1em;
+    padding: 2em;
 }
 
 body form h1 {
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 3em;
 }
 
 body form input {
