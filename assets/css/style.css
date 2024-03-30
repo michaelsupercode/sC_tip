@@ -40,24 +40,26 @@ body form h1 {
 body form input {
     width: 90%;
     display: block;
-    font-size: 1.25em;
+    font-size: 1.2em;
     margin-bottom: 1em;
 }
 
 body form select {
     display: block;
-    font-size: 1.25rem;
-    margin: 1rem auto 2rem auto;
+    font-size: 1.2em;
+    margin: 1em auto 2em auto;
 }
 
 body form input[type="submit"] {
     margin: auto;
     background-color: gold;
     border-radius: 1rem;
+
 }
 
 body form p {
-    font-size: 1.25em;
+    font-size: 1.2m;
+
 }
 
 .grid {
@@ -69,6 +71,3 @@ body form p {
 #out {
     margin-top: 4rem;
 }
-
-
-/*# sourceMappingURL=style.css.map */
