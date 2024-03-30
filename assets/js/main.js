@@ -13,10 +13,10 @@ function calc() {
     let singlePrice = (fullPrice / persons);
 
     out.innerHTML = `
-    <p>Rechnung: <b>${bill.toFixed(2)}€</b><p>
-    <p>Trinkgeld: <b>${tip.toFixed(2)}€</b><p>
-    <p>gesamt: <b>${fullPrice.toFixed(2)}€</b><p>
-    <p>pro Person: <b>${singlePrice.toFixed(2)}€</b><p>
+    <p>bill: <b>${bill.toFixed(2)}€</b><p>
+    <p>tip: <b>${tip.toFixed(2)}€</b><p>
+    <p>total: <b>${fullPrice.toFixed(2)}€</b><p>
+    <p>each: <b>${singlePrice.toFixed(2)}€</b><p>
   `
 
     if (percent === 0) {
